@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* test_warden_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* test_warden_2Tests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		442E7894BA17B7D76B322AE8 /* libPods-test_warden_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3AEBCB33014FF65D73E8BF /* libPods-test_warden_2.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B542553027B61461004E9107 /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542552F27B61461004E9107 /* NetworkModule.swift */; };
+		B542553127B61461004E9107 /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542552F27B61461004E9107 /* NetworkModule.swift */; };
+		B542553327B620A5004E9107 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B542553227B620A5004E9107 /* NetworkModule.m */; };
+		B542553427B620A5004E9107 /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B542553227B620A5004E9107 /* NetworkModule.m */; };
+		B542553627B6CE46004E9107 /* SecurityModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553527B6CE46004E9107 /* SecurityModule.swift */; };
+		B542553727B6CE46004E9107 /* SecurityModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553527B6CE46004E9107 /* SecurityModule.swift */; };
+		B542553A27B6CF37004E9107 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553927B6CF37004E9107 /* Data.swift */; };
+		B542553B27B6CF37004E9107 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553927B6CF37004E9107 /* Data.swift */; };
+		B542553D27B6D018004E9107 /* CryptoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553C27B6D018004E9107 /* CryptoModule.swift */; };
+		B542553E27B6D018004E9107 /* CryptoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553C27B6D018004E9107 /* CryptoModule.swift */; };
+		B542554027B6D2FD004E9107 /* CryptoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553F27B6D2FD004E9107 /* CryptoController.swift */; };
+		B542554127B6D2FD004E9107 /* CryptoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542553F27B6D2FD004E9107 /* CryptoController.swift */; };
+		B542554327B6ED22004E9107 /* CryptoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B542554227B6ED22004E9107 /* CryptoModule.m */; };
+		B542554427B6ED22004E9107 /* CryptoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B542554227B6ED22004E9107 /* CryptoModule.m */; };
+		B54255CF27B8974D004E9107 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = B54255CE27B8974D004E9107 /* web3swift */; };
+		B54255D227BB53F0004E9107 /* manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54255D127BB53F0004E9107 /* manager.swift */; };
+		B571042327C6C81C0020EDDF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE869F27C2ABBE00A5866B /* Extensions.swift */; };
+		B571042427C6C81D0020EDDF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE869F27C2ABBE00A5866B /* Extensions.swift */; };
+		B571042627C6CAC00020EDDF /* CoreData+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571042527C6CAC00020EDDF /* CoreData+Protocols.swift */; };
+		B571042727C6CAC00020EDDF /* CoreData+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571042527C6CAC00020EDDF /* CoreData+Protocols.swift */; };
+		B571042927C719040020EDDF /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571042827C719040020EDDF /* Accounts.swift */; };
+		B571042A27C719040020EDDF /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571042827C719040020EDDF /* Accounts.swift */; };
+		B571045D27C766A00020EDDF /* Address+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571045C27C766A00020EDDF /* Address+Class.swift */; };
+		B571045E27C766A00020EDDF /* Address+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571045C27C766A00020EDDF /* Address+Class.swift */; };
+		B571047F27C768D60020EDDF /* Seeds+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571047527C768D60020EDDF /* Seeds+CoreDataClass.swift */; };
+		B571048027C768D60020EDDF /* Seeds+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571047527C768D60020EDDF /* Seeds+CoreDataClass.swift */; };
+		B571048127C768D60020EDDF /* Seeds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571047627C768D60020EDDF /* Seeds+CoreDataProperties.swift */; };
+		B571048227C768D60020EDDF /* Seeds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571047627C768D60020EDDF /* Seeds+CoreDataProperties.swift */; };
+		B571048727C76D8F0020EDDF /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048327C76D8F0020EDDF /* Account+CoreDataClass.swift */; };
+		B571048827C76D8F0020EDDF /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048327C76D8F0020EDDF /* Account+CoreDataClass.swift */; };
+		B571048927C76D8F0020EDDF /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048427C76D8F0020EDDF /* Account+CoreDataProperties.swift */; };
+		B571048A27C76D8F0020EDDF /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048427C76D8F0020EDDF /* Account+CoreDataProperties.swift */; };
+		B571048B27C76D8F0020EDDF /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048527C76D8F0020EDDF /* Address+CoreDataClass.swift */; };
+		B571048C27C76D8F0020EDDF /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048527C76D8F0020EDDF /* Address+CoreDataClass.swift */; };
+		B571048D27C76D8F0020EDDF /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048627C76D8F0020EDDF /* Address+CoreDataProperties.swift */; };
+		B571048E27C76D8F0020EDDF /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571048627C76D8F0020EDDF /* Address+CoreDataProperties.swift */; };
+		B571049127C7DB080020EDDF /* AppSetupModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571049027C7DB080020EDDF /* AppSetupModule.swift */; };
+		B571049227C7DB080020EDDF /* AppSetupModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B571049027C7DB080020EDDF /* AppSetupModule.swift */; };
+		B571049427C7DC2F0020EDDF /* AppSetupModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B571049327C7DC2F0020EDDF /* AppSetupModule.m */; };
+		B571049527C7DC2F0020EDDF /* AppSetupModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B571049327C7DC2F0020EDDF /* AppSetupModule.m */; };
+		B5FE863D27BC6F0A00A5866B /* warden_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5FE863B27BC6F0A00A5866B /* warden_2.xcdatamodeld */; };
+		B5FE863E27BC6F0A00A5866B /* warden_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5FE863B27BC6F0A00A5866B /* warden_2.xcdatamodeld */; };
+		B5FE864427BC75B700A5866B /* Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864327BC75B700A5866B /* Addresses.swift */; };
+		B5FE864527BC75B700A5866B /* Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864327BC75B700A5866B /* Addresses.swift */; };
+		B5FE864727BC75F100A5866B /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864627BC75F100A5866B /* Cache.swift */; };
+		B5FE864827BC75F100A5866B /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864627BC75F100A5866B /* Cache.swift */; };
+		B5FE864B27BC8A3A00A5866B /* Accounts+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864A27BC8A3A00A5866B /* Accounts+Class.swift */; };
+		B5FE864C27BC8A3A00A5866B /* Accounts+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE864A27BC8A3A00A5866B /* Accounts+Class.swift */; };
+		B5FE866C27BC98EE00A5866B /* WalletModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE866B27BC98EE00A5866B /* WalletModule.m */; };
+		B5FE866D27BC98EE00A5866B /* WalletModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE866B27BC98EE00A5866B /* WalletModule.m */; };
+		B5FE866F27BCB93E00A5866B /* StructDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE866E27BCB93E00A5866B /* StructDecoder.swift */; };
+		B5FE867027BCB93F00A5866B /* StructDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE866E27BCB93E00A5866B /* StructDecoder.swift */; };
+		B5FE867327BCCE8F00A5866B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE867227BCCE8F00A5866B /* String.swift */; };
+		B5FE867427BCCE8F00A5866B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE867227BCCE8F00A5866B /* String.swift */; };
+		B5FE868C27C2079200A5866B /* MnemonicModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE868B27C2079200A5866B /* MnemonicModule.swift */; };
+		B5FE868E27C217D200A5866B /* MnemonicModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE868D27C217D200A5866B /* MnemonicModule.m */; };
+		B5FE869C27C2A9ED00A5866B /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE869B27C2A9ED00A5866B /* Seeds.swift */; };
+		B5FE869E27C2ABA600A5866B /* Seeds+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE869D27C2ABA600A5866B /* Seeds+Class.swift */; };
+		B5FE86A727C4784600A5866B /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86A627C4784500A5866B /* KeychainHelper.swift */; };
+		B5FE86AB27C4879C00A5866B /* AvailableNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86AA27C4879B00A5866B /* AvailableNetworks.swift */; };
+		B5FE86AD27C4880300A5866B /* TokenAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86AC27C4880300A5866B /* TokenAddresses.swift */; };
+		B5FE86AF27C49CBA00A5866B /* ERCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86AE27C49CBA00A5866B /* ERCManager.swift */; };
+		B5FE86B127C49F8B00A5866B /* BlockchainObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86B027C49F8B00A5866B /* BlockchainObjects.swift */; };
+		B5FE86B327C5410C00A5866B /* ChainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86B227C5410B00A5866B /* ChainHandler.swift */; };
+		B5FE86B527C5422100A5866B /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86B427C5422100A5866B /* BlockchainManager.swift */; };
+		B5FE86BF27C6A1E300A5866B /* Biometrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FE86BE27C6A1E300A5866B /* Biometrics.swift */; };
+		CA53E61CE658020801B4A7A5 /* libPods-test_warden_2-test_warden_2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE43903D64C11690F73895F2 /* libPods-test_warden_2-test_warden_2Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = test_warden_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* test_warden_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_warden_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* test_warden_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_warden_2Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* test_warden_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_warden_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = test_warden_2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = test_warden_2/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = test_warden_2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = test_warden_2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = test_warden_2/main.m; sourceTree = "<group>"; };
+		47E214797EA4B183D2A139FF /* Pods-test_warden_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_warden_2.release.xcconfig"; path = "Target Support Files/Pods-test_warden_2/Pods-test_warden_2.release.xcconfig"; sourceTree = "<group>"; };
+		5921DF8AF3AB83C1589D0042 /* Pods-test_warden_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_warden_2.debug.xcconfig"; path = "Target Support Files/Pods-test_warden_2/Pods-test_warden_2.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = test_warden_2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3561D75A693BE45F6EB6D1 /* Pods-test_warden_2-test_warden_2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_warden_2-test_warden_2Tests.debug.xcconfig"; path = "Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD3AEBCB33014FF65D73E8BF /* libPods-test_warden_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_warden_2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31FFF3A60B07545004F5069 /* Pods-test_warden_2-test_warden_2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_warden_2-test_warden_2Tests.release.xcconfig"; path = "Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B542552D27B61460004E9107 /* test_warden_2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test_warden_2-Bridging-Header.h"; sourceTree = "<group>"; };
+		B542552E27B61460004E9107 /* test_warden_2Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test_warden_2Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B542552F27B61461004E9107 /* NetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
+		B542553227B620A5004E9107 /* NetworkModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkModule.m; sourceTree = "<group>"; };
+		B542553527B6CE46004E9107 /* SecurityModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityModule.swift; sourceTree = "<group>"; };
+		B542553927B6CF37004E9107 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B542553C27B6D018004E9107 /* CryptoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModule.swift; sourceTree = "<group>"; };
+		B542553F27B6D2FD004E9107 /* CryptoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoController.swift; sourceTree = "<group>"; };
+		B542554227B6ED22004E9107 /* CryptoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoModule.m; sourceTree = "<group>"; };
+		B54255D127BB53F0004E9107 /* manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manager.swift; sourceTree = "<group>"; };
+		B571042527C6CAC00020EDDF /* CoreData+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Protocols.swift"; sourceTree = "<group>"; };
+		B571042827C719040020EDDF /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		B571045C27C766A00020EDDF /* Address+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+Class.swift"; sourceTree = "<group>"; };
+		B571047527C768D60020EDDF /* Seeds+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seeds+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B571047627C768D60020EDDF /* Seeds+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seeds+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B571048327C76D8F0020EDDF /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B571048427C76D8F0020EDDF /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B571048527C76D8F0020EDDF /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B571048627C76D8F0020EDDF /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B571049027C7DB080020EDDF /* AppSetupModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetupModule.swift; sourceTree = "<group>"; };
+		B571049327C7DC2F0020EDDF /* AppSetupModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppSetupModule.m; sourceTree = "<group>"; };
+		B5FE863C27BC6F0A00A5866B /* warden_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = warden_2.xcdatamodel; sourceTree = "<group>"; };
+		B5FE864227BC71A000A5866B /* CoreDataManager+Header-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataManager+Header-Swift.h"; sourceTree = "<group>"; };
+		B5FE864327BC75B700A5866B /* Addresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addresses.swift; sourceTree = "<group>"; };
+		B5FE864627BC75F100A5866B /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		B5FE864A27BC8A3A00A5866B /* Accounts+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accounts+Class.swift"; sourceTree = "<group>"; };
+		B5FE866B27BC98EE00A5866B /* WalletModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletModule.m; sourceTree = "<group>"; };
+		B5FE866E27BCB93E00A5866B /* StructDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructDecoder.swift; sourceTree = "<group>"; };
+		B5FE867227BCCE8F00A5866B /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B5FE868B27C2079200A5866B /* MnemonicModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicModule.swift; sourceTree = "<group>"; };
+		B5FE868D27C217D200A5866B /* MnemonicModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MnemonicModule.m; sourceTree = "<group>"; };
+		B5FE869B27C2A9ED00A5866B /* Seeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
+		B5FE869D27C2ABA600A5866B /* Seeds+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seeds+Class.swift"; sourceTree = "<group>"; };
+		B5FE869F27C2ABBE00A5866B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5FE86A627C4784500A5866B /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		B5FE86AA27C4879B00A5866B /* AvailableNetworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableNetworks.swift; sourceTree = "<group>"; };
+		B5FE86AC27C4880300A5866B /* TokenAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAddresses.swift; sourceTree = "<group>"; };
+		B5FE86AE27C49CBA00A5866B /* ERCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERCManager.swift; sourceTree = "<group>"; };
+		B5FE86B027C49F8B00A5866B /* BlockchainObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainObjects.swift; sourceTree = "<group>"; };
+		B5FE86B227C5410B00A5866B /* ChainHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainHandler.swift; sourceTree = "<group>"; };
+		B5FE86B427C5422100A5866B /* BlockchainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainManager.swift; sourceTree = "<group>"; };
+		B5FE86BE27C6A1E300A5866B /* Biometrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biometrics.swift; sourceTree = "<group>"; };
+		BE43903D64C11690F73895F2 /* libPods-test_warden_2-test_warden_2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_warden_2-test_warden_2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA53E61CE658020801B4A7A5 /* libPods-test_warden_2-test_warden_2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54255CF27B8974D004E9107 /* web3swift in Frameworks */,
+				442E7894BA17B7D76B322AE8 /* libPods-test_warden_2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* test_warden_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* test_warden_2Tests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = test_warden_2Tests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* test_warden_2 */ = {
+			isa = PBXGroup;
+			children = (
+				B571048F27C7DAF10020EDDF /* managers */,
+				B5FE86A827C4877400A5866B /* chains */,
+				B5FE86A527C4782600A5866B /* security */,
+				B5FE868A27C2074A00A5866B /* web3 */,
+				B5FE864927BC88F800A5866B /* core_data */,
+				B54255D027BB53D5004E9107 /* data */,
+				B542553827B6CF2C004E9107 /* utils */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				B5FE864227BC71A000A5866B /* CoreDataManager+Header-Swift.h */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				B542552D27B61460004E9107 /* test_warden_2-Bridging-Header.h */,
+				B542552E27B61460004E9107 /* test_warden_2Tests-Bridging-Header.h */,
+				B542553527B6CE46004E9107 /* SecurityModule.swift */,
+				B542553F27B6D2FD004E9107 /* CryptoController.swift */,
+				B542552F27B61461004E9107 /* NetworkModule.swift */,
+				B542553227B620A5004E9107 /* NetworkModule.m */,
+				B5FE868B27C2079200A5866B /* MnemonicModule.swift */,
+				B5FE868D27C217D200A5866B /* MnemonicModule.m */,
+				B542553C27B6D018004E9107 /* CryptoModule.swift */,
+				B542554227B6ED22004E9107 /* CryptoModule.m */,
+				B5FE866B27BC98EE00A5866B /* WalletModule.m */,
+				B5FE863B27BC6F0A00A5866B /* warden_2.xcdatamodeld */,
+			);
+			name = test_warden_2;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				AD3AEBCB33014FF65D73E8BF /* libPods-test_warden_2.a */,
+				BE43903D64C11690F73895F2 /* libPods-test_warden_2-test_warden_2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B90CEC4D552E3207511484B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5921DF8AF3AB83C1589D0042 /* Pods-test_warden_2.debug.xcconfig */,
+				47E214797EA4B183D2A139FF /* Pods-test_warden_2.release.xcconfig */,
+				8E3561D75A693BE45F6EB6D1 /* Pods-test_warden_2-test_warden_2Tests.debug.xcconfig */,
+				B31FFF3A60B07545004F5069 /* Pods-test_warden_2-test_warden_2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				B571048327C76D8F0020EDDF /* Account+CoreDataClass.swift */,
+				B571048427C76D8F0020EDDF /* Account+CoreDataProperties.swift */,
+				B571048527C76D8F0020EDDF /* Address+CoreDataClass.swift */,
+				B571048627C76D8F0020EDDF /* Address+CoreDataProperties.swift */,
+				B571047527C768D60020EDDF /* Seeds+CoreDataClass.swift */,
+				B571047627C768D60020EDDF /* Seeds+CoreDataProperties.swift */,
+				13B07FAE1A68108700A75B9A /* test_warden_2 */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* test_warden_2Tests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4B90CEC4D552E3207511484B /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* test_warden_2.app */,
+				00E356EE1AD99517003FC87E /* test_warden_2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B542553827B6CF2C004E9107 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE867127BCCE8300A5866B /* extensions */,
+				B542553927B6CF37004E9107 /* Data.swift */,
+				B5FE864627BC75F100A5866B /* Cache.swift */,
+				B5FE866E27BCB93E00A5866B /* StructDecoder.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B54255D027BB53D5004E9107 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B54255D127BB53F0004E9107 /* manager.swift */,
+				B5FE864327BC75B700A5866B /* Addresses.swift */,
+				B5FE869B27C2A9ED00A5866B /* Seeds.swift */,
+				B571042827C719040020EDDF /* Accounts.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B571048F27C7DAF10020EDDF /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				B571049027C7DB080020EDDF /* AppSetupModule.swift */,
+				B571049327C7DC2F0020EDDF /* AppSetupModule.m */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		B5FE864927BC88F800A5866B /* core_data */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE864A27BC8A3A00A5866B /* Accounts+Class.swift */,
+				B5FE869D27C2ABA600A5866B /* Seeds+Class.swift */,
+				B5FE869F27C2ABBE00A5866B /* Extensions.swift */,
+				B571042527C6CAC00020EDDF /* CoreData+Protocols.swift */,
+				B571045C27C766A00020EDDF /* Address+Class.swift */,
+			);
+			path = core_data;
+			sourceTree = "<group>";
+		};
+		B5FE867127BCCE8300A5866B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE867227BCCE8F00A5866B /* String.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		B5FE868A27C2074A00A5866B /* web3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = web3;
+			sourceTree = "<group>";
+		};
+		B5FE86A527C4782600A5866B /* security */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE86A627C4784500A5866B /* KeychainHelper.swift */,
+				B5FE86BE27C6A1E300A5866B /* Biometrics.swift */,
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		B5FE86A827C4877400A5866B /* chains */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE86AA27C4879B00A5866B /* AvailableNetworks.swift */,
+				B5FE86AC27C4880300A5866B /* TokenAddresses.swift */,
+				B5FE86B027C49F8B00A5866B /* BlockchainObjects.swift */,
+				B5FE86A927C4878100A5866B /* eth */,
+				B5FE86B227C5410B00A5866B /* ChainHandler.swift */,
+				B5FE86B427C5422100A5866B /* BlockchainManager.swift */,
+			);
+			path = chains;
+			sourceTree = "<group>";
+		};
+		B5FE86A927C4878100A5866B /* eth */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE86AE27C49CBA00A5866B /* ERCManager.swift */,
+			);
+			path = eth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* test_warden_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "test_warden_2Tests" */;
+			buildPhases = (
+				726F33B4390E6D321C415D47 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				2A48F0741023EFE5A830B3EB /* [CP] Embed Pods Frameworks */,
+				E2D609DB9B94D60E99BE9D63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = test_warden_2Tests;
+			productName = test_warden_2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* test_warden_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* test_warden_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "test_warden_2" */;
+			buildPhases = (
+				A96E099022BE5C77818C9542 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				59C899124E6FE0D6849DC3E1 /* [CP] Embed Pods Frameworks */,
+				87D9CFF9CD1697FBFE1738AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_warden_2;
+			packageProductDependencies = (
+				B54255CE27B8974D004E9107 /* web3swift */,
+			);
+			productName = test_warden_2;
+			productReference = 13B07F961A680F5B00A75B9A /* test_warden_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1300;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "test_warden_2" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				B54255CD27B8974D004E9107 /* XCRemoteSwiftPackageReference "web3swift" */,
+			);
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* test_warden_2 */,
+				00E356ED1AD99517003FC87E /* test_warden_2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2A48F0741023EFE5A830B3EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C899124E6FE0D6849DC3E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726F33B4390E6D321C415D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_warden_2-test_warden_2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D9CFF9CD1697FBFE1738AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_warden_2/Pods-test_warden_2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96E099022BE5C77818C9542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_warden_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D609DB9B94D60E99BE9D63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_warden_2-test_warden_2Tests/Pods-test_warden_2-test_warden_2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B542554427B6ED22004E9107 /* CryptoModule.m in Sources */,
+				B571048827C76D8F0020EDDF /* Account+CoreDataClass.swift in Sources */,
+				B571048E27C76D8F0020EDDF /* Address+CoreDataProperties.swift in Sources */,
+				B571048A27C76D8F0020EDDF /* Account+CoreDataProperties.swift in Sources */,
+				B571048227C768D60020EDDF /* Seeds+CoreDataProperties.swift in Sources */,
+				B571042427C6C81D0020EDDF /* Extensions.swift in Sources */,
+				B542554127B6D2FD004E9107 /* CryptoController.swift in Sources */,
+				B542553127B61461004E9107 /* NetworkModule.swift in Sources */,
+				B542553B27B6CF37004E9107 /* Data.swift in Sources */,
+				B5FE864827BC75F100A5866B /* Cache.swift in Sources */,
+				B5FE863E27BC6F0A00A5866B /* warden_2.xcdatamodeld in Sources */,
+				B571045E27C766A00020EDDF /* Address+Class.swift in Sources */,
+				B542553727B6CE46004E9107 /* SecurityModule.swift in Sources */,
+				B5FE867027BCB93F00A5866B /* StructDecoder.swift in Sources */,
+				B571048027C768D60020EDDF /* Seeds+CoreDataClass.swift in Sources */,
+				B5FE864C27BC8A3A00A5866B /* Accounts+Class.swift in Sources */,
+				B571042727C6CAC00020EDDF /* CoreData+Protocols.swift in Sources */,
+				B571048C27C76D8F0020EDDF /* Address+CoreDataClass.swift in Sources */,
+				00E356F31AD99517003FC87E /* test_warden_2Tests.m in Sources */,
+				B571049227C7DB080020EDDF /* AppSetupModule.swift in Sources */,
+				B5FE866D27BC98EE00A5866B /* WalletModule.m in Sources */,
+				B571049527C7DC2F0020EDDF /* AppSetupModule.m in Sources */,
+				B542553E27B6D018004E9107 /* CryptoModule.swift in Sources */,
+				B5FE867427BCCE8F00A5866B /* String.swift in Sources */,
+				B571042A27C719040020EDDF /* Accounts.swift in Sources */,
+				B5FE864527BC75B700A5866B /* Addresses.swift in Sources */,
+				B542553427B620A5004E9107 /* NetworkModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FE867327BCCE8F00A5866B /* String.swift in Sources */,
+				B5FE869E27C2ABA600A5866B /* Seeds+Class.swift in Sources */,
+				B571049427C7DC2F0020EDDF /* AppSetupModule.m in Sources */,
+				B542554327B6ED22004E9107 /* CryptoModule.m in Sources */,
+				B5FE869C27C2A9ED00A5866B /* Seeds.swift in Sources */,
+				B5FE86A727C4784600A5866B /* KeychainHelper.swift in Sources */,
+				B571045D27C766A00020EDDF /* Address+Class.swift in Sources */,
+				B54255D227BB53F0004E9107 /* manager.swift in Sources */,
+				B571048727C76D8F0020EDDF /* Account+CoreDataClass.swift in Sources */,
+				B571048127C768D60020EDDF /* Seeds+CoreDataProperties.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B5FE866C27BC98EE00A5866B /* WalletModule.m in Sources */,
+				B571049127C7DB080020EDDF /* AppSetupModule.swift in Sources */,
+				B5FE86AB27C4879C00A5866B /* AvailableNetworks.swift in Sources */,
+				B5FE86AD27C4880300A5866B /* TokenAddresses.swift in Sources */,
+				B571047F27C768D60020EDDF /* Seeds+CoreDataClass.swift in Sources */,
+				B542553A27B6CF37004E9107 /* Data.swift in Sources */,
+				B571048927C76D8F0020EDDF /* Account+CoreDataProperties.swift in Sources */,
+				B542553627B6CE46004E9107 /* SecurityModule.swift in Sources */,
+				B542553D27B6D018004E9107 /* CryptoModule.swift in Sources */,
+				B5FE86B327C5410C00A5866B /* ChainHandler.swift in Sources */,
+				B5FE864727BC75F100A5866B /* Cache.swift in Sources */,
+				B5FE864B27BC8A3A00A5866B /* Accounts+Class.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B542553327B620A5004E9107 /* NetworkModule.m in Sources */,
+				B5FE864427BC75B700A5866B /* Addresses.swift in Sources */,
+				B5FE866F27BCB93E00A5866B /* StructDecoder.swift in Sources */,
+				B5FE868E27C217D200A5866B /* MnemonicModule.m in Sources */,
+				B571048B27C76D8F0020EDDF /* Address+CoreDataClass.swift in Sources */,
+				B5FE86B127C49F8B00A5866B /* BlockchainObjects.swift in Sources */,
+				B5FE86AF27C49CBA00A5866B /* ERCManager.swift in Sources */,
+				B542554027B6D2FD004E9107 /* CryptoController.swift in Sources */,
+				B5FE86B527C5422100A5866B /* BlockchainManager.swift in Sources */,
+				B571042927C719040020EDDF /* Accounts.swift in Sources */,
+				B542553027B61461004E9107 /* NetworkModule.swift in Sources */,
+				B571042627C6CAC00020EDDF /* CoreData+Protocols.swift in Sources */,
+				B5FE863D27BC6F0A00A5866B /* warden_2.xcdatamodeld in Sources */,
+				B571048D27C76D8F0020EDDF /* Address+CoreDataProperties.swift in Sources */,
+				B571042327C6C81C0020EDDF /* Extensions.swift in Sources */,
+				B5FE86BF27C6A1E300A5866B /* Biometrics.swift in Sources */,
+				B5FE868C27C2079200A5866B /* MnemonicModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* test_warden_2 */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3561D75A693BE45F6EB6D1 /* Pods-test_warden_2-test_warden_2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test_warden_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test_warden_2Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_warden_2.app/test_warden_2";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31FFF3A60B07545004F5069 /* Pods-test_warden_2-test_warden_2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = test_warden_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test_warden_2Tests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_warden_2.app/test_warden_2";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5921DF8AF3AB83C1589D0042 /* Pods-test_warden_2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9SU25DHK4;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = test_warden_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jlmurphy.warden;
+				PRODUCT_NAME = test_warden_2;
+				SWIFT_OBJC_BRIDGING_HEADER = "test_warden_2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E214797EA4B183D2A139FF /* Pods-test_warden_2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9SU25DHK4;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = test_warden_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.jlmurphy.warden;
+				PRODUCT_NAME = test_warden_2;
+				SWIFT_OBJC_BRIDGING_HEADER = "test_warden_2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "test_warden_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "test_warden_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "test_warden_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B54255CD27B8974D004E9107 /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skywinder/web3swift.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B54255CE27B8974D004E9107 /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B54255CD27B8974D004E9107 /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B5FE863B27BC6F0A00A5866B /* warden_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5FE863C27BC6F0A00A5866B /* warden_2.xcdatamodel */,
+			);
+			currentVersion = B5FE863C27BC6F0A00A5866B /* warden_2.xcdatamodel */;
+			path = warden_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
